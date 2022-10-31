@@ -33,8 +33,8 @@ describe("Signup & Login", () => {
     });
   });
 
-  it("Test valid login", () => {
-    //cy.intercept("POST", "**/*.realworld.io/api/users").as("newUser");
+  it("Test valid login & Mock Popular Tags", () => {
+    cy.intercept("GET", "**/tags", { fixture: "popularTags.json" });
 
     cy.visit("http://localhost:4200/");
 
@@ -46,14 +46,22 @@ describe("Signup & Login", () => {
     //assetion
     cy.get(":nth-child(4) > .nav-link").should("contain", username);
 
-    // cy.wait("@newUser").should(({ request, response }) => {
-    //   cy.log("Request: " + JSON.stringify(request));
-    //   cy.log("Response: " + JSON.stringify(response));
+    cy.get(".tag-list")
+      .should("contain", "Javascript")
+      .and("contain", "Automation-Testing"); // two assertion
+  });
 
-    //   expect(response.statusCode).to.eq(200);
+  it("Mock Global Feed Data", () => {
+    cy.intercept("GET", "**/api/articles*", { fixture: "testArticle.json" }).as(
+      "articles"
+    );
 
-    //   expect(request.body.user.username).to.include(username); //assert username
-    //   expect(request.body.user.email).to.include(emailTest); // assert email
-    // });
+    cy.visit("http://localhost:4200/");
+    cy.get(".nav").contains("Sign in").click();
+    cy.get("input[formcontrolname='email']").type(emailTest);
+    cy.get("input[formcontrolname='password']").type(passTest);
+    cy.get("button.btn").contains("Sign in").click();
+
+    cy.wait("@articles").should(({ request, response }) => {});
   });
 });

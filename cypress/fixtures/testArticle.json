@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "slug": "apartment-theraphy",
+      "title": "I Tried These Two TikTok Painting Hacks, and I willl Never Go Back to The Way I Used to Pour Paint Again",
+      "description": "Two TikTok Painting Hacks",
+      "body": "I recently painted a wall in my living room (aka, my office, coffee area, and gym). I love how it turned out. What I did not love? How freaking impossible it was to pour paint from the can to the tray without making a mess.",
+      "tagList": [],
+      "createdAt": "2022-10-23T10:58:41.232Z",
+      "updatedAt": "2022-10-23T10:58:41.232Z",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": {
+        "username": "jomz_123",
+        "bio": null,
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+        "following": false
+      }
+    },
+    {
+      "slug": "Repellat-nihil-in-magnam-quasi.-Et-dicta-at-est-laborum-doloribus-sit.-Quia-possimus-necessitatibus-magnam-est-nulla-reiciendis-exercitationem-neque-et-tenetur-quia-deserunt-asperiores-blanditiis-doloribus-ipsum-beatae-numquam.-Ullam-rerum-consequuntur-occaecati-error.-Possimus-consequatur-consectetur-doloribus-voluptate-nihil-tenetur-sunt-fugiat-quae-id-ducimus-non.-105578",
+      "title": "Repellat nihil in magnam quasi.\nEt dicta at est laborum doloribus sit.\nQuia possimus necessitatibus magnam, est, nulla, reiciendis exercitationem neque et tenetur quia deserunt asperiores blanditiis doloribus ipsum beatae numquam.\nUllam rerum consequuntur occaecati error.\nPossimus consequatur consectetur doloribus voluptate nihil, tenetur sunt fugiat quae id, ducimus non.\n",
+      "description": "Eos necessitatibus officia quos. Et vitae aliquid autem occaecati repudiandae placeat repellat odit. Minus iure voluptates autem quam dicta. Iste consequatur aspernatur voluptas quibusdam sint beatae.",
+      "body": "Iusto laborum aperiam neque delectus consequuntur provident est maiores explicabo. Laborum est maxime enim accusantium magnam.\\nRerum dolorum minus laudantium delectus eligendi necessitatibus quia.\\nDeleniti consequatur explicabo aut nobis est vero tempore.\\nExcepturi earum quo quod voluptatem quo iure vel sapiente occaecati.\\nConsectetur consequatur corporis doloribus omnis harum voluptas esse amet. Eveniet sit ipsa officiis laborum.\\nIn vel est omnis sed impedit quod magni.\\nDignissimos quis illum qui atque aut ut quasi sequi. Laborum itaque quos provident.\\nRerum cupiditate praesentium amet voluptatem dolor impedit modi dicta.\\nVoluptates assumenda optio est.\\nNon aperiam nam consequuntur vel a commodi dicta incidunt. Blanditiis non quos aut dolore nulla unde.\\nIncidunt repudiandae amet eius porro.\\nTempora unde sapiente repellat voluptatem omnis et ut omnis in.\\nEt pariatur odit qui minima perspiciatis non dolores. Maiores assumenda porro est ea necessitatibus qui qui dolorum.\\nVelit suscipit ut ipsam odit aut earum. Non natus nihil. Doloribus temporibus dolorum placeat.\\nFugit nulla quaerat.\\nEveniet ratione odit sed non rerum.\\nNemo tempore eveniet veritatis alias repellat et.\\nVoluptas nisi quis commodi id. Animi enim quo deserunt.\\nAmet facilis at laboriosam.\\nRerum assumenda harum et sapiente suscipit ipsa fugiat.\\nSunt ut aut rem expedita consequatur optio.\\nRecusandae tenetur rerum quos culpa. Et fuga repellendus magnam dignissimos eius aspernatur rerum.",
+      "tagList": ["necessitatibus", "sequi", "vitae", "doloribus"],
+      "createdAt": "2022-10-09T10:14:34.005Z",
+      "updatedAt": "2022-10-09T10:14:34.005Z",
+      "favorited": false,
+      "favoritesCount": 86,
+      "author": {
+        "username": "Magda Parry",
+        "bio": null,
+        "image": "https://api.realworld.io/images/demo-avatar.png",
+        "following": false
+      }
+    }
+  ],
+  "articlesCount": 164
+}

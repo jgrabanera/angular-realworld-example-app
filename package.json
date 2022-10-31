@@ -8,7 +8,8 @@
     "build": "ng build --prod  --base-href ./ && cp CNAME dist/CNAME",
     "test": "ng test",
     "lint": "ng lint --force",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "triggerAllTesst-dashboard": "npx cypress run --record --key 8b903603-efe4-480f-afdc-77591c0a42c4"
   },
   "pre-commit": [
     "lint"
